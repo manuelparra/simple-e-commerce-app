@@ -18,4 +18,13 @@ export class ProductListComponent implements OnInit {
   share() {
     window.alert('The product has been shared!');
   }
+
+  onNotify() {
+    console.log('Hizo click');
+    window.alert('You will be notified when the product goes on sale');
+  }
+
+  onShownotify() {
+    console.log("I'm over button now");
+  }
 }
